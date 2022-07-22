@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.prj.burgercart.Menu">
+
+    <GridView
+        android:id="@+id/grd_menu"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#8ED3DC"
+        android:gravity="center"
+        android:numColumns="1"
+        app:layout_constraintBottom_toTopOf="@+id/btn_checkout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:layout_constraintVertical_bias="1.0"
+        tools:listitem="@layout/menuitem" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="460dp"
+        android:layout_height="wrap_content"
+        android:background="#8ED3DC"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Menu"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_checkout"
+        android:layout_width="458dp"
+        android:layout_height="61dp"
+        android:text="Checkout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

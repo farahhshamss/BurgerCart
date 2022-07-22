@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Title">
+        <item>Juicy Lucy</item>
+    </string-array>
+
+    <string-array name="Price">
+        <item>40</item>
+    </string-array>
+
+    <string-array name="Description">
+    <item>Burger Patty 210g</item>
+    </string-array>
+</resources>

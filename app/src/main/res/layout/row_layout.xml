@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#C6A7A7"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/orderId"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Order Id"
+        android:textColor="#010101"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/orderinfo"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Info"
+        android:textColor="#010101"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/orderdate"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Date"
+        android:textColor="#010101"
+        android:textStyle="bold" />
+</LinearLayout>
